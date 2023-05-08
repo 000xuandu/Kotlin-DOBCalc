@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="false"
+    android:background="#A69E13"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR YOUR"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/ageTxt"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:background="#000FFF"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+    />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IN MINUTES"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textAlignment="center"
+    />
+
+    <Button
+        android:id="@+id/selectDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+    />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="21.10.2001"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/selectedDateTxt"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Data"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/dateToMinutes"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1400"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/dateToMinutesTxt"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In minutes till date"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+</LinearLayout>
